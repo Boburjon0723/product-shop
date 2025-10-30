@@ -1,5 +1,5 @@
 document.getElementById("sendToTelegram").addEventListener("click", () => {
-  const token = "7576353277:AAEaeYsp0IAcOkTiUgmgDbWjSDKIuZj-knE";
+  const token = "8361286034:AAGhhavjiXhqDKoOxIcN1WcOx5TfUU_pSH4";
   const chatId = "5655390425";
 
   const name = document.getElementById("userName").value;
