@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+  .card {
+    width: 30%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img {
+    height: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .aloqa {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-wrap: nowrap;
+    padding: 0 20px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  header .logo i {
+    margin-left: 0;
+  }
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  
+
+  .logo1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #0f0f0f;
+    padding-left: 20px;
+    border-top: 1px solid #333;
+    z-index: 999;
+  }
+
+  .logo1.active {
+    display: block ;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0;
+    list-style: none;
+  }
+
+  nav ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+
+  .mobile-menu-icons {
+    display: block;
+    border-top: 1px solid #555;
+    margin-top: 10px;
+    padding-top: 10px !important;
+  }
+
+  .akkaunt {
+    display: none;
+  }
+
+  /* smaller body top padding on mobile to match header height */
+  body {
+    padding-top: 60px;
+  }
+  .search-box input[type="text"] {
+    width: 200px;
+  }
+  .categories {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .telegram-float {
+    right: 12px;
+    bottom: 12px;
+  }
+  .telegram-float a {
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
+  }
+  
+  .box-container2{
+  display:none;
+}
+}
